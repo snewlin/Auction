@@ -1,10 +1,10 @@
 
-# Phase 2 Progress Review
+# Auction Application
 ### By: Sophie Newlin
 ### Date: 3/21/23
-In this functionality of the final project for CMPSC431W, there are five functions to see the home page, create users, sign in, view the user's profile, and logout. There are a couple places in app.py and the html templates where there are large comment blocks. These comment blocks contain code for the final draft of the project, specifically users, as they are prepared to take more data than just the email and the hashed password. The functions and their corresponding html pages are described below. 
+In this functionality of this project, users can create login, sign up, create auction item pages, become sellers, write reviews, submit bids, and much more. 
 ## App.py
-App.py contains the functions and SQL required to create the web application. The top of app.py contains the code to create the users table, and import the data from users.csv, iterating through the tuples and hashing the password for the users table. 
+App.py contains the functions and SQL required to create the web application.
 ### Home
 The home function is the first screen the user sees when logging on. The functionality in the code in quite simple when compared to the other functions. It simply checks the session to see if a user is logged in and returns the home screen if true or false
 ### Signup 
